@@ -1,0 +1,133 @@
+.wappers {
+    max-width: 1160px;
+    width: 100%;
+    margin-inline: auto;
+
+}
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+html {
+    font-size: 16px;
+}
+
+/* form login*/
+form {
+
+    margin: 100px auto;
+    padding: 40px;
+    border-radius: 8px;
+    border: 1px solid #CCC;
+    max-width: 600px;
+    color: var(--primary);
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+a {
+    color: white;
+}
+
+.group-form {
+    margin-bottom: 15px;
+
+}
+
+label,
+input {
+    display: block;
+    width: 100%;
+    line-height: 1.4;
+}
+
+input {
+    padding: 6px;
+    border-radius: 8px;
+    border: 1px solid #aaa;
+}
+
+.text-important {
+    color: red;
+}
+
+button {
+    margin: 12px auto;
+    width: 250px;
+    padding: 10px 24px;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-color: blue;
+    color: white;
+    border: 1px solid blue;
+    border-radius: 8px;
+    transition: all 0.5s;
+
+
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: blue;
+}
+
+/*End form login*/
+
+
+/* logo header login*/
+.logo-login {
+    width: 190.43px;
+    height: 40px;
+    margin-bottom: 8px;
+    max-width: 600px;
+    margin-left: 150px;
+    cursor: pointer;
+    transition: .5s ease;
+    backface-visibility: hidden;
+
+}
+
+.logo-login:hover {
+    opacity: 0.3;
+}
+
+/*End logo header login*/
+
+
+/* logo footer login*/
+.footer-logo-login {
+    width: 190.43px;
+    height: 100px;
+    margin-bottom: 8px;
+    margin-left: 155px;
+    cursor: pointer;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+
+}
+
+.footer-logo-login:hover {
+    opacity: 0.3;
+}
+
+p {
+    text-align: center;
+    font-size: 15px;
+}
+
+/*End logo footer login*/

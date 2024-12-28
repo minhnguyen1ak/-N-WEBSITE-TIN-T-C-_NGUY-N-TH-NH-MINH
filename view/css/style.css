@@ -1,0 +1,745 @@
+.container {
+    padding-block: 40px;
+}
+
+
+/* Header*/
+
+/*Logo*/
+.logo {
+    width: 190.43px;
+    height: 40px;
+}
+
+/*End Logo*/
+
+.logo_user {
+    width: 60px;
+}
+
+
+/*button login log out*/
+.header {
+    height: 80px;
+    background-color: #fff;
+}
+
+.header-wapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.header-nav_item {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+/*End button login log out*/
+
+/*End Header*/
+
+/* Banner */
+.slide-show {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.banner {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.btns {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.btn {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn i {
+    font-size: 24px;
+}
+
+.btn-left {
+    left: 10px;
+}
+
+.btn-right {
+    right: 10px;
+}
+
+/* End Banner */
+
+/* from tìm kiếm */
+.from-sreach {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    padding: 12px;
+}
+
+
+
+.form-sreach-input {
+    width: 100%;
+    position: relative;
+    height: 50px;
+    padding: 13px 16px;
+    background-color: #fff;
+    backdrop-filter: blur(2px);
+    border-radius: 8px;
+}
+
+
+
+.sreach-icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 16px;
+
+}
+
+.form-sreach-input input {
+    width: 100%;
+    height: 100%;
+    padding: 13px 16px 13px 44px;
+    border-color: transparent;
+    border-radius: inherit;
+
+}
+
+/* End from tìm kiếm */
+
+/* from-option sreach */
+.from-sreach-option {
+    width: 271px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+    height: 50px;
+    background-color: #fff;
+    backdrop-filter: blur(2px);
+    border-radius: 8px;
+    padding: 13px 16px;
+    margin-right: 12px;
+    margin-left: 16px;
+    cursor: pointer;
+    gap: 10px;
+}
+
+.form-sreach-option-left {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+
+}
+
+.location-select {
+    padding: 5px 17.4px;
+    border: 0px solid #ccc;
+    border-radius: 5px;
+    font-size: 10px;
+    gap: 4px;
+}
+
+
+
+.form-sreach-option-left span {
+    color: var(#9999);
+}
+
+/*End from- option sreach */
+
+/* button Sreach */
+.from-sreach-btn {
+    border: none;
+    outline: none;
+}
+
+/*End button Sreach */
+
+/*list đề xuất key word sreach */
+.supgest-wrap {
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    justify-content: center;
+
+
+}
+
+.supgest-title {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 4px 8px;
+    font-size: 20px;
+    cursor: pointer;
+    user-select: none;
+    margin-bottom: 13px;
+}
+
+.supgest-list {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.supgest-list :hover {
+    color: #ef463a;
+}
+
+.supgest-item {
+    padding: 4px 8px;
+    border-radius: 8px;
+    background: rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    user-select: none;
+}
+
+/*End list đề xuất key word sreach */
+
+/* list danh sách tin hot*/
+.jods-wrap {
+    margin-top: 77px;
+}
+
+.jods-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.jods-heading-wrap {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+
+
+}
+
+.heading {
+    margin-top: 9px;
+}
+
+.jods-heading-icon-wrap {
+    width: 67px;
+    height: 67px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 04);
+    box-shadow: 0px 12.3421px 30px #7cce9c;
+}
+
+.jods-heading-icon {
+    width: 52.89px;
+    height: 52.89px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.jobs-heading-link {
+    color: var(--primary);
+    font-weight: 500;
+    font-size: 18px;
+    transition: linear .2s;
+}
+
+.jobs-heading-link:hover {
+    text-transform: underline;
+}
+
+/* End list danh sách tin hot*/
+
+/* list card jods*/
+.jods-card-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+    margin-top: 40px;
+    cursor: pointer;
+
+}
+
+
+
+
+.jods-card-item {
+    border-radius: 16px;
+    background: white;
+    padding: 16px;
+    border: 1px solid transparent;
+    transition: linear.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+.jods-card-item:hover {
+    border-color: var(--primary);
+}
+
+.jods-card-image {
+    height: 156px;
+    width: 380.33px;
+
+
+}
+
+.jods-card-name-image {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+
+}
+
+.jods-card-name-image:hover {
+    color: var(--primary)
+}
+
+/*End list card jods*/
+
+/* introduce tin 24h*/
+.heading-wrap {
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.jods-card-list-24h {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+    margin-top: 40px;
+
+
+
+}
+
+.jods-card-item-24h {
+    border-radius: 16px;
+    background: white;
+    padding: 16px;
+    border: 1px solid transparent;
+    transition: linear.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background: #d5e4dd;
+
+}
+
+
+
+.jods-card-item-24h:hover {
+    border-color: var(--primary);
+
+}
+
+.jods-card-image-24h {
+    height: 156px;
+    width: 380.33px;
+
+
+}
+
+.jods-card-name-image-24h {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+
+}
+
+.jods-card-name-image-24h:hover {
+    color: red;
+}
+
+/* End introduce tin 24h*/
+
+/* logo doi tac cung cap*/
+.partner-wrap {
+    margin-top: 75px;
+
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.partner-wrap-list {
+    margin-top: 40px;
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    position: relative;
+}
+
+.partner-wrap-item {
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.partner-wrap-image {
+    height: 100px;
+    width: 300px;
+    cursor: pointer;
+}
+
+.partner-wrap-item:hover {
+    opacity: 0.3;
+}
+
+
+/* End logo doi tac cung cap*/
+
+/* process wroking*/
+.process-wrap {
+    margin-top: 80px;
+    cursor: pointer;
+}
+
+.sub-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #010d42;
+    font-size: 30px;
+
+}
+
+.heading {
+    margin-bottom: 5px;
+}
+
+
+.process-card-list {
+    display: flex;
+    gap: 100px;
+
+
+}
+
+.process-card-item {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.process-card-number-wrap {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-inline: auto;
+
+}
+
+.process-card-number {
+    background-color: var(--gray);
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card-logo {
+    margin-top: 16px;
+    margin-inline: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.card-logo:hover {
+    opacity: 0.3;
+}
+
+.process-card-title-add {
+    margin-top: 16px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.process-card-title {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/*End process wroking*/
+
+/* sub card banner*/
+
+.sub-card-banner {
+    margin-top: 114px;
+    display: flex;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.sub-card-banner {
+    border-radius: 20px;
+}
+
+.sub-baner-left {
+    padding: 26px 40px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+
+    background: #1cb555;
+    gap: 16px;
+    color: #fff;
+
+
+}
+
+.jods-heading-icons {
+    width: 52.89px;
+    height: 52.89px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #7cce9c;
+}
+
+.sub-banner-title {
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 19px;
+
+
+}
+
+.sub-banner-desc {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.sub-banner-right {
+    width: 233px;
+    background: #5ad383;
+    padding: 37.5px 40px;
+    display: flex;
+    align-items: center;
+
+
+}
+
+/*End sub card banner*/
+
+/* Footer*/
+.footer {
+    margin-top: 40px;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.footer-form {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+
+}
+
+.footer-input {
+    padding: 16px;
+    width: 252px;
+    background-color: white;
+    border: 1 solid var(--light-gray);
+    border-radius: 8px;
+}
+
+.footer-form-button {
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    background: linear-gradient(90deg, #ef463a 0%, #fca939 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+
+
+}
+
+.footer-total {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+
+}
+
+.footer-total-item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.footer-total-number-wrap {
+    width: 50px;
+    height: 50px;
+    background: #d5e4dd;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-total-number {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: #010d42;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.footer-total-text {
+    color: rgb(78, 72, 72);
+    font-size: 14px;
+
+}
+
+/* body footer*/
+.footer-body {
+    margin-top: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid var(--grey);
+    margin-bottom: 40px;
+}
+
+.footer-list {
+    display: flex;
+    gap: 40px;
+}
+
+
+.footer-item {
+    flex: 1;
+}
+
+.footer-item p {
+    color: grey;
+    font-size: 14px;
+}
+
+
+.footer-logo {
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--light-gray);
+    width: 190.43px;
+    height: 40px;
+    margin-bottom: 8px;
+}
+
+
+
+.footer-socialist {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.footer-social-title {
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 4px;
+
+}
+
+.footer-text {
+    color: gray;
+}
+
+
+
+.copyright {
+    text-align: center;
+    color: var(--grey);
+    font-size: 18px;
+
+
+}
+
+/*End body footer*/
+/*End Footer*/

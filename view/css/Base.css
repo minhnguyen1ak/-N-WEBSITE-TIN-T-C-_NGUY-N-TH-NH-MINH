@@ -1,0 +1,103 @@
+:root {
+    --primary: #021a84;
+    --secondary: #FE4c4c;
+    --text: #171717;
+    --gray: #9999;
+    --backgroud: #F2f2f2;
+    --light-gray: #e0dddd;
+    --green-text: #2ada66;
+    --blue--text: #021a84;
+    --red--text: #E5532A;
+    --green-gradient: linear-gradient(0deg, rgba(42, 218, 102, 1) rgba(255, 255, 255, 0.6));
+    --purple-gradient: linear-gradient0deg, (rgba(2, 26, 132, 1) rgba(255, 255, 255, 0.6));
+    --red-gradient: linear-gradient(0deg, rgba(2, 26, 132, 1) rgba(255, 255, 255, 0.6));
+}
+
+html,
+body {
+
+
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    background-color: var(--backgroud);
+}
+
+/*center các phần tử trong web*/
+.wapper {
+    max-width: 1160px;
+    width: 100%;
+    margin-inline: auto;
+}
+
+/*button style*/
+.button {
+    height: 44px;
+    min-width: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 16px;
+    color: inherit;
+}
+
+/*End button style*/
+
+/*button style Đăng Ký*/
+.button-border {
+    border: 1px solid var(--primary);
+    border-radius: 10px;
+    color: var(--primary);
+}
+
+.button-border:hover {
+    background-color: var(--primary);
+    color: white;
+}
+
+/*End button style Đăng Ký*/
+
+/*button style Đăng Nhập*/
+.button-solid {
+    border: 1px solid var(--primary);
+    border-radius: 10px;
+    background-color: var(--primary);
+    color: white;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+    isolation: isolate;
+    overflow: hidden;
+}
+
+.button-solid:hover::before {
+    left: auto;
+    right: 0;
+    width: 100%;
+}
+
+.button-solid::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: auto;
+    top: 0;
+    height: 100%;
+    width: 0;
+    background-color: #fff;
+    opacity: 0.1;
+    z-index: -1;
+    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 11);
+}
+
+/*End button style Đăng Nhập*/
+
+/* list danh sách tin hot*/
+.heading {
+    color: #010d42;
+    font-size: 34px;
+    font-weight: 700;
+}
+
+/*End list danh sách tin hot*/

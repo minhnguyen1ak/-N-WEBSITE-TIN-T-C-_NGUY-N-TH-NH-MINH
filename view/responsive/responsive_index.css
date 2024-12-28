@@ -1,0 +1,782 @@
+/* Small devices (tablets, 768px and up) */
+/* Responsive point*/
+@media only screen and (max-width: 768px) {
+
+
+    .wapper {
+        max-width: 768px;
+        width: 100%;
+        margin-inline: auto;
+    }
+
+    .button {
+        height: 40px;
+        min-width: 35px;
+        width: 90px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 10px;
+        font-weight: 500;
+        padding: 4px 8px;
+        color: inherit;
+    }
+
+    /*Logo*/
+    .logo {
+        width: 100.215px;
+        height: 20px;
+    }
+
+    /*End Logo*/
+
+
+    /*button login log out*/
+    .header {
+        height: 80px;
+        background-color: #fff;
+    }
+
+    .header-wapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+    }
+
+    .header-nav_item {
+        display: flex;
+        align-items: center;
+        gap: 14px;
+    }
+
+    .button-border {
+        color: #010d42;
+    }
+
+    .button-solid {
+        color: white;
+    }
+
+    /*End button login log out*/
+
+
+    /* Banner */
+    .slide-show {
+        position: relative;
+        width: 768px;
+        max-width: 768px;
+        overflow: hidden;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+    }
+
+    .banner {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+    }
+
+    .banner img {
+        width: 768px;
+        height: -5%;
+        display: block;
+    }
+
+    .btns {
+        position: absolute;
+        top: 175px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        transform: translateY(-10%);
+        /**/
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+
+    .btn {
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        border: none;
+        padding: 5px;
+        cursor: pointer;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btn i {
+        font-size: 12px;
+    }
+
+    .btn-left {
+        left: 5px;
+    }
+
+    .btn-right {
+        right: 5px;
+    }
+
+
+    /* End Banner */
+
+    /* from tìm kiếm*/
+    .from-sreach {
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: 16px;
+        display: flex;
+        align-items: center;
+        padding: 6px;
+    }
+
+
+
+    .form-sreach-input {
+        width: 90%;
+        position: relative;
+        height: 25px;
+        padding: 6px 10px;
+        background-color: #fff;
+        backdrop-filter: blur(2px);
+        border-radius: 8px;
+
+
+    }
+
+    .sreach-icon {
+        position: absolute;
+        top: 25%;
+        transform: translateY(-5%);
+        left: 8px;
+
+    }
+
+    .form-sreach-input input {
+        width: 50%;
+        height: 50%;
+        padding: 6px 8px 6px 22px;
+        border-color: transparent;
+        border-radius: inherit;
+
+    }
+
+    /* End from tìm kiếm */
+
+    /* from-option sreach */
+    .from-sreach-option {
+        width: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-shrink: 0;
+        height: 25px;
+        background-color: #fff;
+        backdrop-filter: blur(2px);
+        border-radius: 8px;
+        padding: 6px 8px;
+        margin-right: 6px;
+        margin-left: 8px;
+        cursor: pointer;
+    }
+
+    .form-sreach-option-left {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+
+    }
+
+    .form-sreach-option-left svg {
+        width: 28px;
+        height: 29px;
+    }
+
+    .form-sreach-option-left span {
+        color: var(#9999);
+
+    }
+
+    /*End from- option sreach */
+
+    /* button Sreach */
+    .from-sreach-btn {
+        border: none;
+        outline: none;
+        font-size: 40px;
+        color: white;
+    }
+
+    /*End button Sreach */
+
+
+    /*list đề xuất key word sreach */
+    .supgest-wrap {
+        margin-top: 8px;
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        justify-content: center;
+
+
+    }
+
+    .supgest-title {
+        display: flex;
+        align-items: center;
+        gap: 2px;
+        padding: 1px;
+        font-size: 14px;
+        cursor: pointer;
+        user-select: none;
+        margin-bottom: 6.5px;
+    }
+
+    .supgest-list {
+        display: flex;
+        align-items: center;
+        gap: 2px;
+        margin-right: 10px;
+    }
+
+    .supgest-item {
+        padding: 1px;
+        border-radius: 8px;
+        background: rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+        user-select: none;
+    }
+
+    /*End list đề xuất key word sreach */
+
+    /* list danh sách tin hot*/
+    .jods-wrap {
+        margin-top: 38.5px;
+    }
+
+    .jods-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .jods-heading-wrap {
+        display: flex;
+        align-items: center;
+        gap: 7px;
+
+
+    }
+
+    .heading {
+        margin-top: 4.5px;
+        font-size: 20px;
+    }
+
+    .jods-heading-icon-wrap {
+        width: 33.5px;
+        height: 33.5px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: rgba(255, 255, 255, 04);
+        box-shadow: 0px 12.3421px 30px #7cce9c;
+    }
+
+    .jods-heading-icon {
+        width: 26.445px;
+        height: 26.445px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #fff;
+    }
+
+    .jobs-heading-link {
+        color: var(--primary);
+        font-weight: 500;
+        font-size: 15px;
+        transition: linear .2s;
+    }
+
+    .jobs-heading-link:hover {
+        text-transform: underline;
+    }
+
+    /* End list danh sách tin hot*/
+
+    /* list card jods*/
+    .jods-card-list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 16px;
+        margin-top: 20px;
+        cursor: pointer;
+        margin-right: 25.5px;
+    }
+
+    .jods-card-item {
+        border-radius: 16px;
+        background: rgb(230, 227, 227);
+        padding: 8px;
+        border: 1px solid transparent;
+        transition: linear.2s;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+
+
+    .jods-card-item:hover {
+        border-color: var(--primary);
+    }
+
+    .jods-card-image {
+        height: 78px;
+        width: 190.165px;
+
+    }
+
+    .jods-card-name-image {
+        font-size: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .jods-card-name-image:hover {
+        color: blue;
+    }
+
+    /*End list card jods*/
+
+    /* introduce tin 24h*/
+    .heading-wrap {
+        margin-top: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .jods-card-list-24h {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 16px;
+        margin-top: 20px;
+        margin-right: 25.5px;
+    }
+
+    .jods-card-item-24h {
+        border-radius: 16px;
+        background: white;
+        padding: 8px;
+        border: 1px solid transparent;
+        transition: linear.2s;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        background: #d5e4dd;
+
+    }
+
+
+
+    .jods-card-item-24h:hover {
+        border-color: var(--primary);
+
+    }
+
+    .jods-card-image-24h {
+        height: 78px;
+        width: 190.165px;
+
+
+    }
+
+    .jods-card-name-image-24h {
+        font-size: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .jods-card-name-image-24h:hover {
+        color: red;
+    }
+
+    /* End introduce tin 24h*/
+
+    /* logo doi tac cung cap*/
+    .partner-wrap {
+        margin-top: 37.5px;
+
+    }
+
+    .heading {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .partner-wrap-list {
+        margin-top: 20px;
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+        position: relative;
+        margin-right: 25.5px;
+    }
+
+    .partner-wrap-item {
+        opacity: 1;
+        display: block;
+        transition: .5s ease;
+        backface-visibility: hidden;
+    }
+
+    .partner-wrap-image {
+        height: 50px;
+        width: 150px;
+        cursor: pointer;
+    }
+
+    .partner-wrap-item:hover {
+        opacity: 0.3;
+    }
+
+    /* End logo doi tac cung cap*/
+
+
+    /* process wroking*/
+    .process-wrap {
+        margin-top: 40px;
+        cursor: pointer;
+    }
+
+    .sub-heading {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #010d42;
+        font-size: 15px;
+
+    }
+
+    .heading {
+        margin-bottom: 2.5px;
+    }
+
+
+    .process-card-list {
+        display: flex;
+        gap: 50px;
+        margin-right: 25.5px;
+
+
+    }
+
+    .process-card-item {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 35px;
+    }
+
+    .process-card-number-wrap {
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-inline: auto;
+
+    }
+
+    .process-card-number {
+        background-color: var(--gray);
+        color: #fff;
+        font-weight: 700;
+        font-size: 9px;
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .card-logo {
+        margin-top: 8px;
+        margin-inline: auto;
+        transition: .5s ease;
+        backface-visibility: hidden;
+    }
+
+    .card-logo:hover {
+        opacity: 0.3;
+    }
+
+    .process-card-title-add {
+        margin-top: 8px;
+        font-size: 12.5px;
+        font-weight: 700;
+    }
+
+    .process-card-title {
+        margin-top: 5px;
+        font-size: 8px;
+        font-weight: 400;
+    }
+
+    /*End process wroking*/
+
+
+    /* sub card banner*/
+
+    .sub-card-banner {
+        margin-top: 57px;
+        display: flex;
+        border-radius: 20px;
+        overflow: hidden;
+    }
+
+    .sub-card-banner {
+        border-radius: 20px;
+    }
+
+    .sub-baner-left {
+        padding: 13px 20px;
+        flex: 1;
+        display: flex;
+        align-items: center;
+
+        background: #1cb555;
+        gap: 8px;
+        color: #fff;
+
+
+    }
+
+    .jods-heading-icons {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #7cce9c;
+    }
+
+    .sub-banner-title {
+        font-size: 13px;
+        font-weight: 700;
+        margin-top: 9.5px;
+
+
+    }
+
+    .sub-banner-desc {
+        font-size: 9px;
+        font-weight: 400;
+    }
+
+    .sub-banner-right {
+        width: 116.5px;
+        background: #5ad383;
+        padding: 18.75px 20px;
+        display: flex;
+        align-items: center;
+
+
+    }
+
+    .button-solid {
+        font-size: 9px;
+    }
+
+    /*End sub card banner*/
+
+
+    /* Footer*/
+    .footer {
+        margin-top: 20px;
+    }
+
+    .footer-top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+
+    }
+
+    .footer-form {
+        display: flex;
+        gap: 8px;
+        align-items: center;
+
+    }
+
+    .footer-input {
+        padding: 8px;
+        width: 126px;
+        background-color: white;
+        border: 1 solid var(--light-gray);
+        border-radius: 8px;
+    }
+
+    .footer-form-button {
+        width: 25px;
+        height: 25px;
+        border-radius: 8px;
+        background: linear-gradient(90deg, #ef463a 0%, #fca939 100%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        outline: none;
+
+
+    }
+
+    .footer-total {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+
+    }
+
+    .footer-total-item {
+        display: flex;
+        align-items: center;
+        gap: 3px;
+    }
+
+    .footer-total-number-wrap {
+        width: 25px;
+        height: 25px;
+        background: #d5e4dd;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer-total-number {
+        width: 21px;
+        height: 21px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        color: #010d42;
+        font-weight: 700;
+        font-size: 7px;
+    }
+
+    .footer-total-text {
+        color: rgb(78, 72, 72);
+        font-size: 14px;
+
+    }
+
+    /* body footer*/
+    .footer-body {
+        margin-top: 20px;
+
+        border-bottom: 1px solid var(--grey);
+        margin-bottom: 10px;
+    }
+
+    .footer-list {
+        display: flex;
+        gap: 10px;
+    }
+
+
+    .footer-item {
+        display: block;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .footer-item p {
+        color: grey;
+        font-size: 7px;
+        align-items: center;
+        justify-content: center;
+        text-align: left;
+
+    }
+
+
+    .footer-logo {
+        padding-bottom: 4px;
+        border-bottom: 1px solid var(--light-gray);
+        width: 95.215px;
+        height: 20px;
+        margin-bottom: 4px;
+    }
+
+    .footer-social-item {
+        flex: 1;
+
+
+
+    }
+
+    .footer-socialist {
+        display: flex;
+        gap: 10.5px;
+        margin-right: 25.5px;
+        padding-left: 1px;
+
+    }
+
+
+    .footer-social-title {
+        font-size: 5px;
+        font-weight: 700;
+        margin-top: 1px;
+        text-align: left;
+
+    }
+
+    .footer-text {
+        color: gray;
+    }
+
+
+
+    .copyright {
+        text-align: center;
+        color: var(--grey);
+        font-size: 9px;
+
+
+    }
+
+    /*End body footer*/
+    /*End Footer*/
+
+}
+
+/*End Responsive point*/

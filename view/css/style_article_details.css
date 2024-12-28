@@ -1,0 +1,134 @@
+.review-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    width: 52%;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .user-avatar {
+    width: 30px;
+    height: 30px;
+    background-color: #e0e0e0;
+    border-radius: 50%;
+    margin-right: 8px;
+  }
+  
+  .user-name {
+    font-weight: bold;
+    margin-right: 8px;
+  }
+  
+  .stars {
+    display: flex;
+    margin-right: 8px;
+  }
+  
+  .star {
+    color: gold;
+    font-size: 14px;
+  }
+  
+  .date-time {
+    font-size: 12px;
+    color: #777;
+    margin-left: 220px;
+  }
+  
+  .actions {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .like-btn, .share-btn, .messenger-btn {
+    background-color: #1877f2;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  
+  .social-icons {
+    display: flex;
+    align-items: center;
+   margin-left: 122px;
+  }
+  
+  .zalo-icon, .twitter-icon, .email-icon {
+    width: 20px;
+    height: 20px;
+    background-color: #ddd;
+    border-radius: 50%;
+    margin-left: 5px;
+    display: inline-block;
+  }
+  
+  .zalo-icon::before {
+    content: 'Z';
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  
+  .twitter-icon::before {
+    content: 'T';
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  
+  .email-icon::before {
+    content: 'M';
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  .blog{
+    font-size: 20px;
+    margin-top: 30px;
+  }
+
+  .img_blog{
+    width: 75%;
+    bottom: 20px;
+    display: block;  
+    margin-left: auto; 
+    margin-right: auto;
+  }
+
+ .title_blog{
+    margin-top: 35px;
+    
+ }
+
+.title_img{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
